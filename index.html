@@ -54,10 +54,15 @@
 
 				<legend>Loan Amount</legend>
 
-					<h5>Requested Loan Amount</h5>
-				5 Year<input type="radio" name="5-Year" value="5-Year" placeholder="1">
-				15 Year<input type="radio" name="15-Year" value="15-Year" placeholder="2">
-				30 Year<input type="radio" name="30-Year" value="30-Year" placeholder="3">
+				<h5>Requested Loan Amount</h5>
+				5 Year<input type="radio" name="yearSelection" value="5-Year" placeholder="1">
+				15 Year<input type="radio" name="yearSelection" value="15-Year" placeholder="2">
+				30 Year<input type="radio" name="yearSelection" value="30-Year" placeholder="3">
+
+				<!-- FROM LAUREN:
+				5 Year<input type="radio" name="yearSelection" value="5-Year" placeholder="1">
+				15 Year<input type="radio" name="yearSelection" value="15-Year" placeholder="2">
+				30 Year<input type="radio" name="yearSelection" value="30-Year" placeholder="3"> --> 
 				
 			</fieldset>
 
@@ -84,7 +89,17 @@
 				
 				<legend>Contact Information</legend>
 
+					<label for="comments">Additional Comments</label>
+					<input type="text" name="comments">
 
+					<label for="app-email">Applicant Email</label>
+					<input type="email" name="app-email">
+
+					<label for="telephone">Applicant Telephone</label>
+					<input type="phone" name="telephone">
+
+					<label for="linkedin">Linked In Profile</label>
+					<input type="text" name="linkedin">
 
 
 			</fieldset>
