@@ -1,0 +1,46 @@
+body {
+	background-color: #c2c2d6;
+	max-width: 100%;
+	font-family: 'Overpass', sans-serif;
+}
+
+form {
+
+	max-width: 400px;
+	margin: auto;
+	padding: 10px;
+	background-color:  #666699;
+	border: 1px solid black;
+	border-radius: 6%;
+}
+
+.textarea {
+
+	background: rgba(255,255,255,0.1);
+  	border: none;
+  	font-size: 16px;
+  	margin: 0;
+  	padding: 15px;
+  	width: 100%;
+ 	background-color: #e8eeef;
+  	color: #8a97a0;
+}
+
+
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+
+/*input [email]:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+input [email]:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+*/
