@@ -19,15 +19,28 @@ form {
 	background: rgba(255,255,255,0.1);
   	border: none;
   	font-size: 16px;
-  	height: auto;
   	margin: 0;
-  	outline: 0;
   	padding: 15px;
   	width: 100%;
  	background-color: #e8eeef;
   	color: #8a97a0;
-  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  	margin-bottom: 30px;
 }
 
 
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+
+/*input [email]:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+input [email]:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+*/
