@@ -48,36 +48,63 @@
 					
 					<label for="mortgage">Mortgage</label>
 					<input type="checkbox" name="mortgage" value="mortgage">
-					
+			</fieldset>
+
+			<fieldset>	
+
+				<legend>Loan Amount</legend>
 
 				<h5>Requested Loan Amount</h5>
-				1<input type="radio" name="5 Years" value="1" placeholder="1">
-				2<input type="radio" name="15 Years" value="2" placeholder="2">
-				3<input type="radio" name="30 Years" value="3" placeholder="3">
+				5 Year<input type="radio" name="yearSelection" value="5-Year" placeholder="1">
+				15 Year<input type="radio" name="yearSelection" value="15-Year" placeholder="2">
+				30 Year<input type="radio" name="yearSelection" value="30-Year" placeholder="3">
+
+				<!-- FROM LAUREN:
+				5 Year<input type="radio" name="yearSelection" value="5-Year" placeholder="1">
+				15 Year<input type="radio" name="yearSelection" value="15-Year" placeholder="2">
+				30 Year<input type="radio" name="yearSelection" value="30-Year" placeholder="3"> --> 
 				
 			</fieldset>
 
 			<fieldset>
 				
-				<legend>SuperCalafragalisticexpialidosiouc</legend>
-				<label for="mary">MARY POPINS</label>
-				<select name="mary">
-					<option value="penguin">penguin</option>
-					<option value="dog">dog</option>
-					<option value="duck">duck</option>
-				</select>
+				<legend>Special Conditions</legend>
 
-				<label for="comments">Comments</label>
-				<textarea name="comments"></textarea>
 
-				<input type="password" name="">
-				<input type="range" name="" required="">
-				<input type="number" name="" placeholder="phone here">
-				<input type="tel" name="" placeholder="email here">
-				<input type="email" name="">
+					<label for="downpayment">I have a downpayment.</label>
+					<input type="checkbox" name="downpayment" value="downpayment">
+
+					<label for="Out-of-state">Out-of-state resident</label>
+					<input type="checkbox" name="out-of-state" value="out-of-state">
+
+					<label for="married">Married</label>
+					<input type="checkbox" name="married" value="married">
+					
+					<label for="co-sign">Loan will be co-signed</label>
+					<input type="checkbox" name="co-sign" value="co-sign">
+
 			</fieldset>
-			<br>
 
+			<fieldset>
+				
+				<legend>Contact Information</legend>
+
+					<label for="comments">Additional Comments</label>
+					<input type="text" name="comments">
+
+					<label for="app-email">Applicant Email</label>
+					<input type="email" name="app-email">
+
+					<label for="telephone">Applicant Telephone</label>
+					<input type="tel" name="telephone">
+
+					<label for="linkedin">LinkedIn Profile</label>
+					<input type="url" name="linkedin">
+
+
+			</fieldset>
+
+	
 			<button type="submit">Submit Here</button>
 			
 		</form>
@@ -85,9 +112,6 @@
 
 	</body>
 </html>
-Contact GitHub API Training Shop Blog About
-
-
 
 
 
